@@ -7,7 +7,7 @@ The goal was to better understand how JavaScript interacts with HTML elements an
 
 ---
 
-![Preview](assets/images/preview.png)
+![Preview](Counter/asset/images/preview.png)
 
 ---
 
