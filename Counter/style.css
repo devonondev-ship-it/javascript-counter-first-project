@@ -1,0 +1,106 @@
+
+.card{
+  width: 600px;
+  margin: 300px auto;
+  padding: 20px;
+  background-image: url(https://i.pinimg.com/736x/1e/80/fa/1e80faba5b3403cdcccb3da5a6e6d1f7.jpg);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(203, 0, 230);
+  text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.increase-btn{
+  padding: 10px 20px; 
+  font-size: 20px;
+  border-color: rgb(43, 226, 73);
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.increase-btn:active{
+    transform: scale(0.95);
+}
+
+.increase-btn:hover{
+    cursor: pointer; 
+    opacity: 0.5;
+}
+
+.reset-btn{
+  padding: 5px; 
+  font-size: 20px;
+  border-color: black;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.reset-btn:active{
+    transform: scale(0.95);
+}
+
+.reset-btn:hover{
+    opacity: 0.5;
+}
+
+.decrease-btn{
+  padding: 10px 20px; 
+  font-size: 20px;
+  border-color: rgb(240, 55, 95);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.decrease-btn:active{
+    transform: scale(0.95);
+}
+
+.decrease-btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+#max-text{
+  color: red;
+}
+
+
+#counter{
+  font-size:80px;
+  font-weight: bold;
+  margin-top:50px;
+  background: linear-gradient(
+    90deg,
+    rgb(253, 84, 6),
+    orange,
+    rgb(233, 214, 47),
+    rgb(14, 247, 118),
+    rgb(14, 185, 185),
+    rgb(50, 50, 141),
+    rgb(233, 13, 159),
+    rgb(243, 72, 72)
+  );
+
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  
+  color: transparent;
+
+  animation: rainbow-move 2s linear infinite;
+}
+
+@keyframes rainbow-move{
+  0%{
+    background-position: 0%;
+  }
+
+  100%{
+    background-position: 300%;
+  }
+}
+
+
